@@ -168,7 +168,7 @@ Building JELOS is easy.  From the root of your local repository, issue one of th
 |S922X||`make docker-S922X`|`make S922X`|
 |ALL DEVICES||`make docker-world`|`make world`|
 
-> Devices that list a dependency require you to build the dependency first, since that build will be used as the root of the device you are building.
+> Devices that list a dependency require you to build the dependency first, since that build will be used as the root of the device you are building.  You only need to build the dependency once after cloning or cleaning the dependency.
 
 For example, the following command uses Docker to build the AMD64 image.  
 
